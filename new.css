@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media only screen and (min-width : 1200px) {
+    .carousel-caption
+    {
+      top: 65%;
+    }
+  }
+
+.navbar{
+    background-color: white;
+    opacity: 0.9;
+}
+
+nav li{
+    text-transform: uppercase;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: #212121;
+    transition: all 0.5s ease;
+    font-size: 1rem;
+  }
+
+  .nav-link:hover {
+    color: white;
+    background-color:blue;
+    opacity: 0.7;
+    transition: all 0.5s ease;
+  }
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption button a:hover{
+    margin-bottom: 30%;
+    text-decoration: none;
+}
+
+.jumbotron{
+    padding: 1rem;
+    border-radius: 0;
+}
+
+hr{
+    border-top: 2px solid #b4b4b4;
+    width: 50%;
+}
+
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding: 2rem;
+}
+
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%; 
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
