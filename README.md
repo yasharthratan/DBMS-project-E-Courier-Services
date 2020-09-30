@@ -1,1 +1,1 @@
-# DBMS-project-E-Courier-Services
+# DBMS project (E-Courier-Services)
